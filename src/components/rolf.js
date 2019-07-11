@@ -24,24 +24,24 @@ const Rolf = () => {
       clip: "yeah_buddy5"
     },
     {
-      label: "Bees 1",
+      label: "Couple of Bees",
       clip: "bees1"
     },
     {
-      label: "Bees 2",
+      label: "Birds and the Bees",
       clip: "bees2"
     },
     {
-      label: "Question 1",
+      label: "Question For You",
       clip: "question1"
     },
     {
-      label: "Working from home 1",
-      clip: "working_home1"
+      label: "Question For Reese",
+      clip: "question2"
     },
     {
-      label: "Working from home 2",
-      clip: "working_home2"
+      label: "Sick day",
+      clip: "working_home1"
     }
   ];
 
