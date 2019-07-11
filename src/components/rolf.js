@@ -57,22 +57,24 @@ const Rolf = () => {
     audio.play();
     setSound(true);
   };
-
-  const style = {
+  const containerStyle = {
+    marginTop: "30px"
+  };
+  const rolfStyle = {
     width: "100px",
     height: "100px",
     cursor: "pointer",
     marginTop: "20px",
     marginBottom: "90px",
-    marginLeft: "20px",
-    marginRight: "20px"
+    marginLeft: "10px",
+    marginRight: "10px"
   };
 
   const [sound, setSound] = useState(false);
   return (
-    <Container>
+    <Container style={containerStyle}>
       <Grid.Column>
-        <Header as="h3" textAlign="center">
+        <Header as="h1" textAlign="center">
           Click The Rolf &nbsp;
           <Icon name={sound ? "volume up" : "volume off"} />
         </Header>
@@ -80,7 +82,7 @@ const Rolf = () => {
       <Grid>
         {rolfs.map((quote, index) => {
           return (
-            <Grid.Column key={index} style={style}>
+            <Grid.Column key={index} style={rolfStyle}>
               <Image
                 onClick={() => playClip(quote.clip)}
                 src="/assets/jay_face.png"
