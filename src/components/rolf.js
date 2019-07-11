@@ -20,7 +20,7 @@ const Rolf = () => {
       clip: "yeah_buddy4"
     },
     {
-      label: "Yeah buddy 5",
+      label: "Wererolf",
       clip: "yeah_buddy5"
     },
     {
